@@ -16,6 +16,7 @@
 		<Item Name="Style--cluster.ctl" Type="VI" URL="../Style--cluster.ctl"/>
 		<Item Name="VI to make Type--enum.ctl" Type="VI" URL="../VI to make Type--enum.ctl"/>
 		<Item Name="Constant Info--cluster.ctl" Type="VI" URL="../Constant Info--cluster.ctl"/>
+		<Item Name="Error Info--cluster.ctl" Type="VI" URL="../Error Info--cluster.ctl"/>
 	</Item>
 	<Item Name="Class" Type="Folder">
 		<Item Name="Query Class.vi" Type="VI" URL="../Query Class.vi"/>
