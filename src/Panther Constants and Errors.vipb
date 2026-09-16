@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-09-15 17:29:47" Modified_Date="2026-09-15 18:36:12" Creator="Enrique Noe Arias" Comments="" ID="3d417892a95c5072e2e149dd874d247c">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-09-15 17:29:47" Modified_Date="2026-09-16 12:12:10" Creator="Enrique Noe Arias" Comments="" ID="732b9e7ac05ce838aff93be873a0b7db">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Constants_and_Errors</Package_File_Name>
-    <Library_Version>1.0.1.3</Library_Version>
+    <Library_Version>1.0.2.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Constants and Errrors</Library_Output_Folder>
@@ -53,7 +53,7 @@ To use this tool go to Tools-&gt;PantherLAB-&gt;Add Constant or Error VI</Descri
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/ConstantsErrorMakerc</URL>
-      <Release_Notes>Added Constant and error output path</Release_Notes>
+      <Release_Notes>Improved algorith to identify DQMH Modules using the "Project Item" approach instead of looking at the file names.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
