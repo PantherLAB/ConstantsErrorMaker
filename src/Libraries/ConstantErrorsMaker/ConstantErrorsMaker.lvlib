@@ -1,7 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="20008000">
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*"!!!*Q(C=\&gt;5^4A-R%)&lt;B$U2"GROAN#HH#LF#KP445;?F8)E,-!?A)")FV9K;:M1.=I7=)"+];U:2E!*"YL@!CT?&lt;TWP\C&gt;&gt;;J&amp;:/J2-^(3K&lt;&gt;]M(WC=40I&gt;4`8%ZG&gt;1&amp;\3V^/&gt;6HX&gt;F/L8U&lt;P(4&lt;P.6`M[``XPFXWT`\_Q[U(SD[,``F&gt;]P&amp;Q5X[\8PW3-/,C*L5I$L6.%TVF/2*HO2*HO2*(O2"(O2"(O2"\O2/\O2/\O2/&lt;O2'&lt;O2'&lt;O2'XAZSE9N=Z*#3S:/*EE'4!:+&lt;I3AZ*:\%EXA3$V_6?"*0YEE]C9&gt;&lt;F(A34_**0)G(&lt;EI]C3@R**\%QV".EOUARZ.Y'&amp;["*`!%HM!4?*B3A3=!"*-&amp;!Q?$Q&amp;$1'&amp;Q%HM!4?,B5Y!E]A3@Q""[;&amp;8A#4_!*0)'(,GV6IGG'ARQ0Q]DR/"\(YXA=$U0,]4A?R_.Y(!`4S@%Y(A@B4/A-$E&amp;/*_='ZYPD=4R]S0%Y(M@D?"Q04?U*?6O:14-=Z(A-D_%R0)&lt;(]$#%$)`B-4S'R`!QL!S0Y4%]BM@Q-*5-D_%R0!&lt;%G*4J:1RG&gt;$2O-A,$QV`&lt;,&gt;;?5D3*N5/KT;P;F+L.JNJ%KMWB?OCKB[F[3+L&amp;6SWK;L&amp;5C[$[=3KU#K/;2.6ZO&amp;&amp;LTCNK4VV3/_K#/K./K70K;/D[R4?OVWON6CPV@;`F=KGO[\29,$3&lt;T43&gt;4D5?DT5;D&lt;;PA4//\1PB^8PJ]&lt;R\O,POZ`=X6Q^XN`X]]@RS`A0`3``!OV((WBW8.8I'L\ETI!!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -72,6 +71,7 @@
 		<Item Name="Set Icon Text Error Constant.vi" Type="VI" URL="../Set Icon Text Error Constant.vi"/>
 		<Item Name="Style--constant.vi" Type="VI" URL="../Style--constant.vi"/>
 		<Item Name="Variant to String Value.vi" Type="VI" URL="../Variant to String Value.vi"/>
+		<Item Name="GetLibraryItems.vi" Type="VI" URL="../GetLibraryItems.vi"/>
 	</Item>
 	<Item Name="Scripts" Type="Folder"/>
 	<Item Name="Add Constant or Error VI.vi" Type="VI" URL="../../../Add Constant or Error VI.vi"/>
