@@ -107,6 +107,23 @@
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
+				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
+				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
+				<Item Name="Show in File System.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Show in File System.vi"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
+				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
+				<Item Name="Less Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Functor/Less Functor.lvclass"/>
+				<Item Name="Less Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Comparable/Less Comparable.lvclass"/>
+				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
+				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
@@ -118,40 +135,40 @@
 			<Item Name="LV Config Read Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Pathlist.vi"/>
 			<Item Name="LV Config Read Color.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Color.vi"/>
 			<Item Name="LV Config Read Numeric (I32).vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Numeric (I32).vi"/>
-			<Item Name="Nattify - Align 1 Row of FP Controls.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Align 1 Row of FP Controls.vi"/>
-			<Item Name="Nattify - Arrange BD.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Arrange BD.vi"/>
-			<Item Name="Nattify - Arrange FP Controls Columns.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Arrange FP Controls Columns.vi"/>
-			<Item Name="Nattify - Arrange FP Controls Rows.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Arrange FP Controls Rows.vi"/>
-			<Item Name="Nattify - Arrange FP Controls.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Arrange FP Controls.vi"/>
-			<Item Name="Nattify - Arrange FP.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Arrange FP.vi"/>
-			<Item Name="Nattify - Arrange Other FP Objects.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Arrange Other FP Objects.vi"/>
-			<Item Name="Nattify - Compute Bound on Grid.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Compute Bound on Grid.vi"/>
-			<Item Name="Nattify - Compute Top Row Vertical Delta.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Compute Top Row Vertical Delta.vi"/>
-			<Item Name="Nattify - Compute Window Bounds.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Compute Window Bounds.vi"/>
-			<Item Name="Nattify - Ensure Leftmost BD Object Is Visible.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Ensure Leftmost BD Object Is Visible.vi"/>
-			<Item Name="Nattify - Establish Window Bounds.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Establish Window Bounds.vi"/>
-			<Item Name="Nattify - Filter FP Conn Pane Controls.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Filter FP Conn Pane Controls.vi"/>
-			<Item Name="Nattify - FP Control Info.ctl" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - FP Control Info.ctl"/>
-			<Item Name="Nattify - FP Objects Arrangement Info.ctl" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - FP Objects Arrangement Info.ctl"/>
-			<Item Name="Nattify - Get BD Canvas Margin.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Get BD Canvas Margin.vi"/>
-			<Item Name="Nattify - Get Display Workspace Bounds.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Get Display Workspace Bounds.vi"/>
-			<Item Name="Nattify - Get FP Controls Max Bottom.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Get FP Controls Max Bottom.vi"/>
-			<Item Name="Nattify - Get FP Controls Rows.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Get FP Controls Rows.vi"/>
-			<Item Name="Nattify - Get FP Objects Arrangement Info.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Get FP Objects Arrangement Info.vi"/>
-			<Item Name="Nattify - Get Min Window Dimensions.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Get Min Window Dimensions.vi"/>
-			<Item Name="Nattify - Get Window Gaps.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Get Window Gaps.vi"/>
-			<Item Name="Nattify - Get Window INI tokens.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Get Window INI tokens.vi"/>
-			<Item Name="Nattify - Get Window Margins.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Get Window Margins.vi"/>
-			<Item Name="Nattify - Min Window Dimensions.ctl" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Min Window Dimensions.ctl"/>
-			<Item Name="Nattify - Move All BD Objects.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Move All BD Objects.vi"/>
-			<Item Name="Nattify - Order FP Conn Pane Controls.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Order FP Conn Pane Controls.vi"/>
-			<Item Name="Nattify - Rectangle Dimensions.ctl" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Rectangle Dimensions.ctl"/>
-			<Item Name="Nattify - Resize BD.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Resize BD.vi"/>
-			<Item Name="Nattify - Resize FP.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Resize FP.vi"/>
-			<Item Name="Nattify - Space FP Controls.vi" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Space FP Controls.vi"/>
-			<Item Name="Nattify - Window Gaps.ctl" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Window Gaps.ctl"/>
-			<Item Name="Nattify - Window Margins.ctl" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Window Margins.ctl"/>
-			<Item Name="Nattify - Window Type.ctl" Type="VI" URL="../Libraries/Nattify Copy Support.llb/Nattify - Window Type.ctl"/>
+			<Item Name="Nattify - Align 1 Row of FP Controls.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Align 1 Row of FP Controls.vi"/>
+			<Item Name="Nattify - Arrange BD.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Arrange BD.vi"/>
+			<Item Name="Nattify - Arrange FP Controls Columns.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Arrange FP Controls Columns.vi"/>
+			<Item Name="Nattify - Arrange FP Controls Rows.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Arrange FP Controls Rows.vi"/>
+			<Item Name="Nattify - Arrange FP Controls.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Arrange FP Controls.vi"/>
+			<Item Name="Nattify - Arrange FP.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Arrange FP.vi"/>
+			<Item Name="Nattify - Arrange Other FP Objects.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Arrange Other FP Objects.vi"/>
+			<Item Name="Nattify - Compute Bound on Grid.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Compute Bound on Grid.vi"/>
+			<Item Name="Nattify - Compute Top Row Vertical Delta.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Compute Top Row Vertical Delta.vi"/>
+			<Item Name="Nattify - Compute Window Bounds.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Compute Window Bounds.vi"/>
+			<Item Name="Nattify - Ensure Leftmost BD Object Is Visible.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Ensure Leftmost BD Object Is Visible.vi"/>
+			<Item Name="Nattify - Establish Window Bounds.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Establish Window Bounds.vi"/>
+			<Item Name="Nattify - Filter FP Conn Pane Controls.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Filter FP Conn Pane Controls.vi"/>
+			<Item Name="Nattify - FP Control Info.ctl" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - FP Control Info.ctl"/>
+			<Item Name="Nattify - FP Objects Arrangement Info.ctl" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - FP Objects Arrangement Info.ctl"/>
+			<Item Name="Nattify - Get BD Canvas Margin.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Get BD Canvas Margin.vi"/>
+			<Item Name="Nattify - Get Display Workspace Bounds.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Get Display Workspace Bounds.vi"/>
+			<Item Name="Nattify - Get FP Controls Max Bottom.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Get FP Controls Max Bottom.vi"/>
+			<Item Name="Nattify - Get FP Controls Rows.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Get FP Controls Rows.vi"/>
+			<Item Name="Nattify - Get FP Objects Arrangement Info.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Get FP Objects Arrangement Info.vi"/>
+			<Item Name="Nattify - Get Min Window Dimensions.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Get Min Window Dimensions.vi"/>
+			<Item Name="Nattify - Get Window Gaps.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Get Window Gaps.vi"/>
+			<Item Name="Nattify - Get Window INI tokens.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Get Window INI tokens.vi"/>
+			<Item Name="Nattify - Get Window Margins.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Get Window Margins.vi"/>
+			<Item Name="Nattify - Min Window Dimensions.ctl" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Min Window Dimensions.ctl"/>
+			<Item Name="Nattify - Move All BD Objects.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Move All BD Objects.vi"/>
+			<Item Name="Nattify - Order FP Conn Pane Controls.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Order FP Conn Pane Controls.vi"/>
+			<Item Name="Nattify - Rectangle Dimensions.ctl" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Rectangle Dimensions.ctl"/>
+			<Item Name="Nattify - Resize BD.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Resize BD.vi"/>
+			<Item Name="Nattify - Resize FP.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Resize FP.vi"/>
+			<Item Name="Nattify - Space FP Controls.vi" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Space FP Controls.vi"/>
+			<Item Name="Nattify - Window Gaps.ctl" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Window Gaps.ctl"/>
+			<Item Name="Nattify - Window Margins.ctl" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Window Margins.ctl"/>
+			<Item Name="Nattify - Window Type.ctl" Type="VI" URL="../Libraries/Nattify_PantherLAB.llb/Nattify - Window Type.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
