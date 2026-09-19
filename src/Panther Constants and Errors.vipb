@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-09-15 17:29:47" Modified_Date="2026-09-16 12:12:10" Creator="Enrique Noe Arias" Comments="" ID="732b9e7ac05ce838aff93be873a0b7db">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-09-15 17:29:47" Modified_Date="2026-09-19 13:29:37" Creator="Enrique Noe Arias" Comments="" ID="16a7be55c3fcd5a840438afb091f70fe">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Constants_and_Errors</Package_File_Name>
-    <Library_Version>1.0.2.5</Library_Version>
+    <Library_Version>1.0.2.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Constants and Errrors</Library_Output_Folder>
@@ -48,12 +48,17 @@ The tool provides flexibility in code organization, allowing users to generate t
 For developers utilizing the DQMH Framework, the tool offers streamlined integration. When applied to DQMH modules, the tool automatically places Constant VIs into the Private/Constants folder and Error VIs into the Private/Errors folder. Additionally, when generating an Error VI, it references the specific module's name constant to ensure the resulting error is accurately tied to the corresponding DQMH module.
 
 Note: Although this tool is compatible with the DQMH Framework, it operates without any dependency on it. It can be utilized within any other framework or in standard LabVIEW code.
-
-To use this tool go to Tools-&gt;PantherLAB-&gt;Add Constant or Error VI</Description>
+</Description>
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/ConstantsErrorMakerc</URL>
-      <Release_Notes>Improved algorith to identify DQMH Modules using the "Project Item" approach instead of looking at the file names.</Release_Notes>
+      <Release_Notes>The following changes have been implemented:
+
+1. The tool now utilizes the Qualified Name for libraries and classes rather than the standard name.
+2. Error VI icons now display the specific error code in red text directly on the icon.
+3. Constant VI icons now feature the text CONST in red on the first row of the icon.
+4. When generating Constant VIs within a project, the tool automatically creates a folder named Constants to organize and store all the constant VIs.
+5. When generating Error VIs within a project, the tool automatically creates a folder named Errors to organize and store all associated Error VIs.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -141,7 +146,7 @@ To use this tool go to Tools-&gt;PantherLAB-&gt;Add Constant or Error VI</Descri
       <Namespace_Overrides>
         <Path>Libraries/ConstantErrorsMaker/ConstantErrorsMaker.lvlib</Path>
         <Namespace_Type>Prefix</Namespace_Type>
-        <Namespace>PantherLAB_lib_Panther_Constants_and_Errors</Namespace>
+        <Namespace>PantherLAB_lib_</Namespace>
       </Namespace_Overrides>
       <Exclusions>
         <Path>Constant and Errors Maker.lvproj</Path>
