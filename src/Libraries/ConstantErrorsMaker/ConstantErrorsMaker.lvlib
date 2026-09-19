@@ -74,7 +74,6 @@
 		<Item Name="Set Icon Text Error Constant.vi" Type="VI" URL="../Set Icon Text Error Constant.vi"/>
 		<Item Name="Style--constant.vi" Type="VI" URL="../Style--constant.vi"/>
 		<Item Name="Variant to String Value.vi" Type="VI" URL="../Variant to String Value.vi"/>
-		<Item Name="GetLibraryItems.vi" Type="VI" URL="../GetLibraryItems.vi"/>
 	</Item>
 	<Item Name="Add Constant or Error VI.vi" Type="VI" URL="../../../Add Constant or Error VI.vi"/>
 </Library>
