@@ -38,6 +38,7 @@
 		<Item Name="Create Map of tokens to replace.vi" Type="VI" URL="../Create Map of tokens to replace.vi"/>
 		<Item Name="Draw Project Results Table Constants.vi" Type="VI" URL="../Draw Project Results Table Constants.vi"/>
 		<Item Name="Replace comas for cr.vi" Type="VI" URL="../Replace comas for cr.vi"/>
+		<Item Name="Save Constants Info next to LV Project.vi" Type="VI" URL="../Save Constants Info next to LV Project.vi"/>
 	</Item>
 	<Item Name="Error" Type="Folder">
 		<Item Name="Dialog" Type="Folder">
@@ -51,6 +52,7 @@
 		</Item>
 		<Item Name="Error Code Validation.vi" Type="VI" URL="../Error Code Validation.vi"/>
 		<Item Name="Script Find current Error Codes.vi" Type="VI" URL="../Script Find current Error Codes.vi"/>
+		<Item Name="Save Errors Info next to LV Project.vi" Type="VI" URL="../Save Errors Info next to LV Project.vi"/>
 	</Item>
 	<Item Name="Project" Type="Folder">
 		<Item Name="Get Project Data.vi" Type="VI" URL="../Get Project Data.vi"/>
@@ -72,7 +74,7 @@
 		<Item Name="Set Icon Text Error Constant.vi" Type="VI" URL="../Set Icon Text Error Constant.vi"/>
 		<Item Name="Style--constant.vi" Type="VI" URL="../Style--constant.vi"/>
 		<Item Name="Variant to String Value.vi" Type="VI" URL="../Variant to String Value.vi"/>
+		<Item Name="GetLibraryItems.vi" Type="VI" URL="../GetLibraryItems.vi"/>
 	</Item>
-	<Item Name="Scripts" Type="Folder"/>
 	<Item Name="Add Constant or Error VI.vi" Type="VI" URL="../../../Add Constant or Error VI.vi"/>
 </Library>
