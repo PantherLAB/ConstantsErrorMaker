@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-09-15 17:29:47" Modified_Date="2026-09-22 11:10:28" Creator="Enrique Noe Arias" Comments="" ID="3217786d77825b103516128b886cc436">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-09-15 17:29:47" Modified_Date="2026-09-22 11:50:04" Creator="Enrique Noe Arias" Comments="" ID="db93915ea12c9de0d8b02a87109b6544">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Constants_and_Errors</Package_File_Name>
-    <Library_Version>1.0.2.7</Library_Version>
+    <Library_Version>1.0.3.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Constants and Errrors</Library_Output_Folder>
