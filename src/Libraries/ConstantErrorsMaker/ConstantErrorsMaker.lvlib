@@ -43,12 +43,14 @@
 	<Item Name="Error" Type="Folder">
 		<Item Name="Dialog" Type="Folder">
 			<Item Name="Error Code Dialog.vi" Type="VI" URL="../Error Code Dialog.vi"/>
+			<Item Name="Edit Current Error Code Dialog.vi" Type="VI" URL="../Edit Current Error Code Dialog.vi"/>
 		</Item>
 		<Item Name="Scripts" Type="Folder">
 			<Item Name="Script Add Custom Error -- Library.vi" Type="VI" URL="../Script Add Custom Error -- Library.vi"/>
 			<Item Name="Script Add Custom Error -- Class.vi" Type="VI" URL="../Script Add Custom Error -- Class.vi"/>
 			<Item Name="Script Add Custom Error -- Project.vi" Type="VI" URL="../Script Add Custom Error -- Project.vi"/>
 			<Item Name="Script Error VI Template with custom data.vi" Type="VI" URL="../Script Error VI Template with custom data.vi"/>
+			<Item Name="Edit Current Error code.vi" Type="VI" URL="../Edit Current Error code.vi"/>
 		</Item>
 		<Item Name="Error Code Validation.vi" Type="VI" URL="../Error Code Validation.vi"/>
 		<Item Name="Script Find current Error Codes.vi" Type="VI" URL="../Script Find current Error Codes.vi"/>
