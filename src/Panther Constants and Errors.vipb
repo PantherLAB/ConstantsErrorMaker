@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-09-15 17:29:47" Modified_Date="2026-09-22 11:50:04" Creator="Enrique Noe Arias" Comments="" ID="db93915ea12c9de0d8b02a87109b6544">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-09-15 17:29:47" Modified_Date="2026-09-24 12:12:28" Creator="Enrique Noe Arias" Comments="" ID="1bf810878f09b76da51a0866e430f2f4">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Constants_and_Errors</Package_File_Name>
-    <Library_Version>1.0.3.8</Library_Version>
+    <Library_Version>1.0.4.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Constants and Errrors</Library_Output_Folder>
@@ -57,8 +57,7 @@ Note: Although this tool is compatible with the DQMH Framework, it operates with
 1.- The Tool can create errors as a class member, it uses the "Get Class Name" to customize the error cluster
 2.- The Tool can edit current error codes by right clicking the error in the error list.
 
-TODO
-When editing the error code the icon will be edited to reflect the new error code in the connector pane, but the Error name will be missing.</Release_Notes>
+FIX: There was an issue with an Application instance not wired and causing LVClass files lock state</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
